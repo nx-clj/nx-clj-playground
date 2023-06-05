@@ -1,3 +1,4 @@
-{:deps {local.nx-clj.workspace/dependencies {:local/root "../../libs/clj-deps"}}
+{:deps {local.nx-clj.workspace/dependencies {:local/root "../../libs/clj-deps"}
+        com.github.nx-clj.nx-clj-playground/utils {:local/root "../../libs/utils"}}
  :aliases {:build {:deps {local.nx-clj.local-workspace/build-dependencies {:local/root "../../libs/clj-build-deps"}}
                    :ns-default build}}}
