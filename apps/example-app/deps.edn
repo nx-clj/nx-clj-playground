@@ -1,0 +1,3 @@
+{:deps {local.nx-clj.workspace/dependencies {:local/root "../../libs/clj-deps"}}
+ :aliases {:build {:deps {local.nx-clj.local-workspace/build-dependencies {:local/root "../../libs/clj-build-deps"}}
+                   :ns-default build}}}
